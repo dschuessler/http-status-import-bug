@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/tsc --project tsconfig.build.json"
+  },
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  },
+  "packageManager": "yarn@4.2.2+sha224.1e50daf19e5e249a025569752c60b88005fddf57d10fcde5fc68b88f",
+  "dependencies": {
+    "http-status": "^2.0.0"
+  }
+}
